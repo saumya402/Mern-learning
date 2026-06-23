@@ -1,0 +1,41 @@
+npm create vite is the way of creating project at the start when u install the node in your system 
+
+npm -> node package manager is used to check the entry of each and every node module install in your system
+
+All the check are present in dependencies 
+there are two type of dependencies present 
+1 -> react 
+2->react-dom
+
+npm -> node_module -> build/dist ->package -> js / ts -> function
+
+React js has a component based arch 
+
+The two component are 
+1 --> class based component which are used earlier in the scene for the react js
+2 --> function based component which are used nowdays in the scene of the react js.
+
+Steps of create components 
+
+1-> Go the src file 
+2-> create the folder name components
+3 -> create the new file name according to your choice
+
+The shortuct of creating components are
+1--> rafc ==> react arrow function component is the way of creating the function in which the const import is create which is export using {}..
+2--> rfc ==>react function component is the way of creating normal function which create default import without {}.
+
+
+Rules for creating component
+1->File name first name should be capital and also it is not compulsory to do that just because we dont have to maintain that it is easy to import..
+
+There are two type of import 
+
+1--->const import it is the type of import with {}..
+2--->const  default import is the type of import without {}.
+
+
+
+
+
+
