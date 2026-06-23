@@ -17,7 +17,7 @@ export const Login = () => {
             <form onClick={handleSubmit(submit)}>
                 <div>
                     <label>Email</label>
-                    <input type='text' {...register("email")}></input>
+                    <input type='name' {...register("email")}></input>
                 </div>
                 <div>
                     <label>Password</label>
