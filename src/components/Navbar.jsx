@@ -4,7 +4,8 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 export const Navbar = () => {
   const navigate = useNavigate()
   const logouthandler = ()=>{
-    localStorage.clear()
+    // localStorage.clear()
+    document.cookie = "token=; max-age=0; path=/;";
     navigate("/login")
 
   }
@@ -261,6 +262,18 @@ export const Navbar = () => {
     })}
   >
    Login 
+  </NavLink>
+</li>
+<li class="nav-item">
+  <NavLink 
+    to="item" 
+    
+    style={({ isActive }) => ({
+      color: isActive ? 'red' : '#ffffff'
+     
+    })}
+  >
+   Item
   </NavLink>
 </li>
 

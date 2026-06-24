@@ -54,6 +54,7 @@ import { ApiDemo22 } from './components/api/ApiDemo22'
 import { ToastContainer, Zoom } from 'react-toastify'
 import { ProductPost } from './components/Product/ProductPost'
 import { Login } from './components/api/Login'
+import { Item } from './components/api/Item'
 // import { ToastContainer, Zoom } from 'react-toastify/unstyled'
 
 // import './App.css'
@@ -111,6 +112,7 @@ transition={Zoom}
         <Route path='apidemo22' element={<ApiDemo22 />}></Route>
         <Route path='add' element = {<ProductPost/>}></Route>
         <Route path='login'element = {<Login/>}></Route>
+        <Route path='item' element = {<Item/>}></Route>
       </Routes>
       {/* <UserStateDemo1></UserStateDemo1>
   <UserStateDemo2></UserStateDemo2>

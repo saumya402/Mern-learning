@@ -8,16 +8,17 @@ export const Login = () => {
         const res = await axios.post("https://node5.onrender.com/user/login", data)
         console.log(res.data.data)
         localStorage.setItem("token", res.data.data)
-                                                                                                  
+       document.cookie = `token=${res.data.data}; path=/`;
+
     }
 
     return (
-        <div>
+        <div style={{textAlign : "center"}}>
             <h1>Login Form</h1>
             <form onClick={handleSubmit(submit)}>
                 <div>
                     <label>Email</label>
-                    <input type='name' {...register("email")}></input>
+                    <input type='text' {...register("email")}></input>
                 </div>
                 <div>
                     <label>Password</label>
